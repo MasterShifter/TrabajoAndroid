@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TrabajoAndroid</string>
+    <string name="txtTitUsername">Username:</string>
+    <string name="txtTitPassword">Password:</string>
+    <string name="chkLogin">I accept terms and conditions.</string>
+    <string name="btnLogin">Login</string>
+    <string name="imgLogo">AlumnAPP</string>
+    <string name="imgBackground">Background</string>
+    <string name="switchShow">Show</string>
+    <string name="errorLoginTerms">You must accept the terms first!</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="btnDeleteAll">Delete all!</string>
+    <string name="btnCloseSession">Close session</string>
+    <string name="alertDeleteAll">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="alertFillUserAndPassword">Fill user and password!</string>
+    <string name="alertlogout">Do you want to logout?</string>
+    <string name="btnEdit">Edit Alumn</string>
+    <string name="btnDelete">DeleteAlumn</string>
+    <string name="txtEditAlumnID">Alumn\'s ID:</string>
+    <string name="txtEditName">Alumn\'s Name:</string>
+    <string name="txtEditPhone">Alumn\'s Phone:</string>
+    <string name="txtEditSurname">Alumn\'s Surname:</string>
+    <string name="txtEditSubject">Subject:</string>
+    <string name="txtEditMark">Alumn\'s Mark:</string>
+    <string name="btnEditOk">Save</string>
+    <string name="btnEditCancel">Cancel</string>
+    <string name="txtEditMail">Alumn\'s Email:</string>
+    <string name="subject0">Generic</string>
+    <string name="subject1">APP Interface</string>
+    <string name="subject2">DB admin</string>
+    <string name="subject3">Engineer</string>
+    <string name="alertDeleteAlum">Do you want to remove this alumn?</string>
+</resources>

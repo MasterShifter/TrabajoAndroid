@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlumnAPP</string>
+    <string name="txtTitUsername">Usuario:</string>
+    <string name="txtTitPassword">Contraseña:</string>
+    <string name="chkLogin">Acepto los terminos y condiciones.</string>
+    <string name="btnLogin">Iniciar sesión</string>
+    <string name="imgLogo">AlumnAPP</string>
+    <string name="imgBackground">Background</string>
+    <string name="switchShow">Mostrar</string>
+    <string name="errorLoginTerms">¡Debes aceptar los terminos primero!</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="btnDeleteAll">¡Borrar todos!</string>
+    <string name="btnCloseSession">Cerrar sesión</string>
+    <string name="alertDeleteAll">¿Estás seguro?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="alertFillUserAndPassword">¡Rellena los campos!</string>
+    <string name="alertlogout">¿Quieres cerrar sesión?</string>
+    <string name="btnEdit">Editar alumno</string>
+    <string name="btnDelete">Eliminar alumno</string>
+    <string name="txtEditAlumnID">ID del alumno:</string>
+    <string name="txtEditName">Nombre del alumno:</string>
+    <string name="txtEditPhone">Teléfono del alumno:</string>
+    <string name="txtEditSurname">Apellidos del alumno:</string>
+    <string name="txtEditSubject">Asignatura:</string>
+    <string name="txtEditMark">Alumn\'s Mark:</string>
+    <string name="btnEditOk">Save</string>
+    <string name="btnEditCancel">Cancel</string>
+    <string name="txtEditMail">Correo del alumno:</string>
+    <string name="subject0">Genérica</string>
+    <string name="subject1">Interfaz de APP</string>
+    <string name="subject2">DB admin</string>
+    <string name="subject3">Ingeniería</string>
+    <string name="alertDeleteAlum">¿Quieres eliminar este alumno?</string>
+</resources>

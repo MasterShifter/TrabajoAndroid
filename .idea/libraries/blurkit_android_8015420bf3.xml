@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="blurkit-android-8015420bf3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.wonderkiln/blurkit-android/8015420bf3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.wonderkiln/blurkit-android/8015420bf3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wonderkiln/blurkit-android/8015420bf3/b82ec54fc23088dc28cad5961cdb0b0f0e227019/blurkit-android-8015420bf3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

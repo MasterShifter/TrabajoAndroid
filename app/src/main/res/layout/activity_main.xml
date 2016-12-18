@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.csi2_23.trabajoandroid.MainActivity"
+    android:padding="0dp"
+    app:layout_anchorGravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/cropped_students_background"
+        android:id="@+id/imgBackground"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/imgBackground" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarBoot"
+        android:visibility="invisible"
+        android:max="6000"
+        android:progress="0"
+        android:minHeight="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignParentStart="true" />
+
+    <com.wonderkiln.blurkit.BlurLayout
+        android:id="@+id/blurLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:blk_fps="30"
+        android:foregroundGravity="center">
+
+    </com.wonderkiln.blurkit.BlurLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/applogonew"
+        android:id="@+id/imgLogo"
+        android:layout_marginTop="179dp"
+        android:contentDescription="@string/imgLogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        app:loading_width="10dp"
+        app:loading_color="@android:color/holo_blue_bright"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_gravity="bottom|center"
+        android:layout_height="300dp" />
+
+</RelativeLayout>

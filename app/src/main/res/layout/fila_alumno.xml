@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_height="80dp"
+            android:id="@+id/imgSubject"
+            android:layout_width="80dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="ZZZZZZZ YYYYYY, xxxxxxxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFullName"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="xxxxxxx@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtEmail"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:text="------"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtSubject"
+                        android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:text="954000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtPhone"
+                        android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <TextView
+                    android:text="0.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtMark"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:selectAllOnFocus="false"
+                    android:textSize="36sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
